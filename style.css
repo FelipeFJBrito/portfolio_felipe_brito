@@ -12,6 +12,9 @@ html{
 .navbar{
     background-color: rgb(39, 38, 38);
     font-family: 'Ubuntu', sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .nav-link:hover{
