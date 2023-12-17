@@ -44,11 +44,14 @@ html{
 }
 .jumbotron{
     background: url('assets/back2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     width: auto;
     height: 100%;
+    
 }
 
 .jumbotron-content{
@@ -773,6 +776,7 @@ html{
     
 }
   
+
   @media (max-width: 950px) {
     .container-contact{
       width: 90%;
